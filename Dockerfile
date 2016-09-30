@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:1.0.1
+FROM microsoft/dotnet:latest
 ENTRYPOINT ["dotnet", "DemoNetCoreApi.dll"]
 ARG source=.
 WORKDIR /app
